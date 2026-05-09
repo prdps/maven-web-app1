@@ -1,0 +1,23 @@
+<settings>
+
+    <servers>
+
+        <!-- Nexus Auth -->
+        <server>
+            <id>Nexus</id>
+            <username>admin</username>
+            <password>p@$$word</password>
+        </server>
+
+        <!-- Tomcat Auth -->
+        <!--
+        <server>
+            <id>tomcat-server</id>
+            <username>jenkins</username>
+            <password>p@$$word</password>
+        </server>
+        -->
+
+    </servers>
+
+</settings>

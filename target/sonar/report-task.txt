@@ -1,0 +1,6 @@
+projectKey=org.pradeep:01-maven-web-app
+serverUrl=http://52.90.159.5:9000
+serverVersion=26.4.0.121862
+dashboardUrl=http://52.90.159.5:9000/dashboard?id=org.pradeep%3A01-maven-web-app
+ceTaskId=40630eb0-4ea1-401c-9f1f-e4be33dc4acf
+ceTaskUrl=http://52.90.159.5:9000/api/ce/task?id=40630eb0-4ea1-401c-9f1f-e4be33dc4acf

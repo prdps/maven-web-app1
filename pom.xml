@@ -1,0 +1,68 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.pradeep</groupId>
+    <artifactId>01-maven-web-app</artifactId>
+    <version>3.0-RELEASE</version>
+    <packaging>war</packaging>
+
+    <name>01-maven-web-app</name>
+    <url>http://maven.apache.org</url>
+
+    <!-- Properties -->
+    <properties>
+        <sonar.host.url>http://52.90.159.5:9000/</sonar.host.url>
+        <sonar.login>sqa_147b35be8273485d28d55db98428a2094edd2900</sonar.login>
+    </properties>
+
+    <!-- Dependencies -->
+    <dependencies>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+
+    <!-- Nexus Repository -->
+    <distributionManagement>
+
+        <repository>
+            <id>Nexus</id>
+            <name>Nexus Repository archive</name>
+            <url>http://54.158.25.126:8081/repository/maven-repo-remo/</url>
+        </repository>
+
+        <snapshotRepository>
+            <id>Nexus</id>
+            <name>Nexus Repository snapshot</name>
+            <url>http://54.158.25.126:8081/repository/maven-repo-snap/</url>
+        </snapshotRepository>
+
+    </distributionManagement>
+
+    <!-- Build -->
+    <build>
+
+        <finalName>maven-web-app</finalName>
+
+        <plugins>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.3.1</version>
+            </plugin>
+
+        </plugins>
+
+    </build>
+
+</project>
