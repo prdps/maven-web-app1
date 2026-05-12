@@ -18,7 +18,7 @@
   <div style="background-color: #0000; padding: 20px; border-radius: 10px; display: inline-block;">
     <h1>Welcome to My Maven Web App!</h1>
     <p>This is a simple JSP page served by a Maven web application.</p>
-    <p>This is Pradeep From first Git Push!!!</p>
+    <p>This is Pradeep From first Git Push!!!!</p>
   </div>  
 
 </body>
