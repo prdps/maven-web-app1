@@ -4,19 +4,19 @@
     <style>
     body {
         background-color: #0000;
-        background-image: conic-gradient(#e13636, #0000);
+        background-image: conic-gradient(#000, #0000);
         font-family: Arial, sans-serif;
         text-align: center;
         padding-top: 50px;
     }
     h1 {
-        color: #e13636;
+        color: white;
     }
 </style>
 </head>
 <body>
 
-  <div style="background-color: #0000; padding: 20px; border-radius: 10px; display: inline-block;">
+  <div style="background-color: white; padding: 20px; border-radius: 10px; display: inline-block;">
     <h1>Welcome to My Maven Web App!</h1>
     <p>This is a simple JSP page served by a Maven web application.</p>
     <p>This is Pradeep From first Git Push!!!!</p>
