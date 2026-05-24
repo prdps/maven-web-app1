@@ -1,0 +1,11 @@
+apiVersion: apps/v1
+kind: Service
+metadata:
+  name: myapp-service
+spec:
+  selector:
+    app: war-app
+  ports:
+  - port: 8081
+    targetPort: 8081
+  type: LoadBalancer

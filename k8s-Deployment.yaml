@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: maven-web-app-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: maven-web-app
+  template:
+    metadata:
+      labels:
+        app: maven-web-app
+    spec:
+      containers:
+      - name: maven-web-app
+        image: pradeepsuresh/maven-web-app1:latest
+        ports:
+        - containerPort: 8081
+        resources:
+          requests:
+            cpu: "100m"
+            memory: "128Mi"
+          limits:
+            cpu: "250m"
+            memory: "256Mi"
+
