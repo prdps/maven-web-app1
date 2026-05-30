@@ -20,6 +20,7 @@
     <p>This is a simple JSP page served by a Maven web application.</p>
     <p>This is Pradeep From first Git Push!!!!</p>
     <p> This is the 2nd Line of Edit !!!! Updated!! </p>
+<p> First update for k8s Deployement!! </p>
   </div>  
 
 </body>
