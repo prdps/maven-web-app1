@@ -16,7 +16,7 @@ spec:
       - name: maven-web-app
         image: pradeepsuresh/maven-web-app1:latest
         ports:
-        - containerPort: 8081
+        - containerPort: 8888
         resources:
           requests:
             cpu: "100m"
